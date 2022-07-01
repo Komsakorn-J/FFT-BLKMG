@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/file/juice.png",
+  "itemname": "item_a13cfdc5-a287-4781-9f59-9917ba5db11b",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/84c6dc0e-e212-481e-9ee4-021f625005dc",
+    "time": 40
+  }
+}

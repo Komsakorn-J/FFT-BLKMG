@@ -1,0 +1,15 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "icon": "@asset/file/Chilli.png",
+  "itemname": "item_b0806d85-c461-49bc-8297-fb33729c3ed9",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

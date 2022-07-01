@@ -1,0 +1,102 @@
+{
+  "data": {
+    "hitEntitySkill": "myplugin/hurt",
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Originator/bed_ender.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "missile_df9cdcdd-16fe-467c-89e8-c361ca71d11e"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "44e2e8fd-f2ae-475d-bea6-74eeea2b9849"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 2
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "aad819fc-b055-4461-8db9-2efdf08c571b"
+              },
+              "pos": {
+                "x": 841,
+                "y": 307
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "44e2e8fd-f2ae-475d-bea6-74eeea2b9849"
+              },
+              "pos": {
+                "x": 1300,
+                "y": 432
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "e2e8d74f-cfd6-429c-a6a9-ccb0f9af887c"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "aad819fc-b055-4461-8db9-2efdf08c571b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "dc9c3185-af2d-47ca-ba3c-a84dcae79f86"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "049ff65cccc2c64f0a2dbeed802f72de",
+      "triggers.bts": "b8945c1f76da6976c661390586823de4"
+    },
+    "VERSION": "0.21"
+  }
+}

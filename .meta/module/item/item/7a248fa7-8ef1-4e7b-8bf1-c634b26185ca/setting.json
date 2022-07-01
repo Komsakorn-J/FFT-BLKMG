@@ -1,0 +1,23 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/file/kick.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_7a248fa7-8ef1-4e7b-8bf1-c634b26185ca"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8e82947946f566db6f6eb158a66539fe",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

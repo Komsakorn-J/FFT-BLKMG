@@ -1,0 +1,121 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/file/pigeon.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_31ef4d27-62fb-4d3a-aa18-216b3788e4d6"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreatePart",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ShapeId"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Color"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_PartTexture"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2dd9c021-d355-4a39-8b86-6a8461ab3a83"
+              },
+              "pos": {
+                "x": 706,
+                "y": 188
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "cbea0580-9cc1-47f0-9d4a-3fe9f912c97e"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2dd9c021-d355-4a39-8b86-6a8461ab3a83"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c6304b4c-9181-46c0-96b7-820bb259c520"
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b8131253eff23d1857e66138f2577aef",
+      "triggers.bts": "0e0539104e40a9ff1d5cbcc7c47aac72"
+    },
+    "VERSION": "0.21"
+  }
+}

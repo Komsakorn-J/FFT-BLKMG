@@ -1,0 +1,28 @@
+USE_ITEM {
+	CreatePart(
+		color = [
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		],
+		map = "",
+		material = "part_suliao.tga",
+		name = "",
+		pitch = 0,
+		pos = {
+			x = 0,
+			y = 0,
+			z = 0
+		},
+		roll = 0,
+		shapeId = "1",
+		size = {
+			__OBJ_TYPE = "Vector3",
+			x = 1,
+			y = 1,
+			z = 1
+		},
+		yaw = 0
+	)
+}

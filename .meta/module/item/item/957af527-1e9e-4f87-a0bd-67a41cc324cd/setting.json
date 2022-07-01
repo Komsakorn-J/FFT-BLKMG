@@ -1,0 +1,117 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/file/Bubble.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 200
+        },
+        "useBuff": "myplugin/5567f767-79ed-477e-8778-d1096bbbb0e9"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "item_957af527-1e9e-4f87-a0bd-67a41cc324cd"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f0595b9c-7578-44f3-8ddf-42205b43851d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/5567f767-79ed-477e-8778-d1096bbbb0e9"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 200
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a490a9f6-cd00-4934-8be0-8e4d02a3a5b6"
+              },
+              "pos": {
+                "x": 740,
+                "y": 372
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f0595b9c-7578-44f3-8ddf-42205b43851d"
+              },
+              "pos": {
+                "x": 1213,
+                "y": 268
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "98ba0ddf-03e5-445f-80ce-d5c08c1bf66e"
+            },
+            "type": "Trigger_RemoveItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a490a9f6-cd00-4934-8be0-8e4d02a3a5b6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8d64ced9-f537-49f3-a4cb-65b0c6eb6953"
+            }
+          },
+          "type": "Trigger_RemoveItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4621ab6c4535b5eb31ba7703f71a028d",
+      "triggers.bts": "12fdd92a209318b653ac1fca7a067bb5"
+    },
+    "VERSION": "0.21"
+  }
+}

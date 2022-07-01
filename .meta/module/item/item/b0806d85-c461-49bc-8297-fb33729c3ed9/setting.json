@@ -1,0 +1,23 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/file/Chilli.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "name": {
+      "value": "item_b0806d85-c461-49bc-8297-fb33729c3ed9"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0f7c296d397d2bde4e85abaad523afe5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

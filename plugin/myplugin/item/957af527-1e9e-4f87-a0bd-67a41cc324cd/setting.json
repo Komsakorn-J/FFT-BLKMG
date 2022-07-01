@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/file/Bubble.png",
+  "itemname": "item_957af527-1e9e-4f87-a0bd-67a41cc324cd",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/5567f767-79ed-477e-8778-d1096bbbb0e9",
+    "time": 200
+  }
+}

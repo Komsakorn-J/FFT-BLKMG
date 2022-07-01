@@ -1,0 +1,17 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/file/pigeon.png",
+  "itemname": "item_31ef4d27-62fb-4d3a-aa18-216b3788e4d6",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

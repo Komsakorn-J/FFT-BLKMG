@@ -1,0 +1,23 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/file/beeg_pigeon.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_51527d2f-01db-4506-990c-d623e3635e08"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "63acdeb34bfca32de9f78f639d38f50d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

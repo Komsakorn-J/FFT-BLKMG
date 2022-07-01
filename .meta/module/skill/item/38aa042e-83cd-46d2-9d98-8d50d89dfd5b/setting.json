@@ -1,0 +1,51 @@
+{
+  "data": {
+    "castAction": "attack",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/xueguai/jiaoshi.effect",
+        "selector": "editor/Parkour/asset/file/xueguai/jiaoshi.effect"
+      },
+      "pos": {
+        "y": 1.5,
+        "z": 1
+      }
+    },
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 5
+    },
+    "name": {
+      "value": "11385deb-2ba8-40c4-8721-f7c6421ee2c0"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/attcak"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "draggingEnabled": true,
+      "iconPos": {
+        "area_number": 5
+      },
+      "isClickIcon": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "93c3e79168d6522e9e556bf8bc4440c9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

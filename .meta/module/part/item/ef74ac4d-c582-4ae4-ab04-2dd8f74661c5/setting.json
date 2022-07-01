@@ -1,0 +1,91 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0c5d5af3-032a-4dfc-b4cc-bb17f18df924"
+              },
+              "pos": {
+                "x": 1039,
+                "y": 386
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0c5d5af3-032a-4dfc-b4cc-bb17f18df924"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 5
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "5fcbeced-d53c-4c2c-a387-f4b23ad90d35"
+              },
+              "pos": {
+                "x": 691,
+                "y": 349
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d00f5832-c895-4259-870a-f30278428898"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "5fcbeced-d53c-4c2c-a387-f4b23ad90d35"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1084bd48-123f-47d8-840c-0ae146959d12"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "457c88c539d7c3cc2bb3e952566eb227"
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "data": {
+    "castAction": "attack3",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/xueguai/jiaoshi.effect",
+        "selector": "editor/Parkour/asset/file/xueguai/jiaoshi.effect"
+      },
+      "pos": {
+        "y": 1.5,
+        "z": 1
+      }
+    },
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 5
+    },
+    "consumeItem": [
+      {
+        "itemType": {
+          "item": "myplugin/31ef4d27-62fb-4d3a-aa18-216b3788e4d6"
+        }
+      }
+    ],
+    "name": {
+      "value": "7f64e821-eca3-4d15-9e7c-88ab27a933cf"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/df9cdcdd-16fe-467c-89e8-c361ca71d11e"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "draggingEnabled": true,
+      "icon": {
+        "asset": "asset/hand.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "eb57d8e5c06e0b1c039c199e43486f2b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

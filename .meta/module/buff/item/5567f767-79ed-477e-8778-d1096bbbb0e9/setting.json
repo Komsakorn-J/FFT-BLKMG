@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Actor/charactor/charactor_girl/effect/111_newchest.effect"
+      },
+      "scale": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      }
+    },
+    "name": {
+      "value": "buff_5567f767-79ed-477e-8778-d1096bbbb0e9"
+    },
+    "sync": "self",
+    "unassailable": true,
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "73f53cfd9c2cb1f41a657ecc58e0d4b4"
+    },
+    "VERSION": "0.21"
+  }
+}

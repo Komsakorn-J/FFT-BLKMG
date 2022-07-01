@@ -1,0 +1,23 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/file/punch.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_bcae60ea-c2ba-40f5-8ed8-817e904d4123"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e212763c1618789bb955018a7c2d9c0a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

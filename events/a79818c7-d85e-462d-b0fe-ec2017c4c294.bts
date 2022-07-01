@@ -1,0 +1,3 @@
+PART_TOUCH_ENTITY_BEGIN {
+	Damage(damage = 5, entity = $obj2)
+}

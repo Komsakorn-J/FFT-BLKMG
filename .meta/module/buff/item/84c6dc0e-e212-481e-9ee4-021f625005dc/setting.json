@@ -1,0 +1,27 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/halo.effect",
+        "selector": "editor/Fun_Jump/asset/file/halo.effect"
+      }
+    },
+    "jumpSpeed": 5,
+    "moveSpeed": 10,
+    "name": {
+      "value": "4483975d-ef73-4a37-a6cd-bf1affa3e201"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "842db98d2665a8287a3dd2375ffb8e9a"
+    },
+    "VERSION": "0.21"
+  }
+}

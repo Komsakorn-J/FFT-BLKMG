@@ -1,0 +1,737 @@
+{
+  "data": {
+    "md5": "81f623b9e3f45b233475ba1082d74da8",
+    "path": "asset/GameInfo.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "AutoTextScale": true,
+              "Font_size": 17,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a1883277-9acb-4600-89de-9ad99ba551a7"
+              },
+              "name": "CountdownText",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 222
+                },
+                "UDim_Y": {
+                  "Offect": 5
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 105
+                },
+                "UDim_Y": {
+                  "Offect": 40
+                }
+              },
+              "Text": "133",
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "4628e180-1a6f-4890-8b93-930d5418e8e5"
+              },
+              "Image": {
+                "asset": "asset/Texture/icon_主界面_秒表.png"
+              },
+              "name": "CountdownIcon",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 180
+                },
+                "UDim_Y": {
+                  "Offect": 11
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 32
+                },
+                "UDim_Y": {
+                  "Offect": 32
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "7be1d0ab-6679-47c0-a130-e0196bc15b4b"
+          },
+          "Image": {
+            "asset": "asset/Texture/bg_daojishi.png"
+          },
+          "name": "CountdownBG",
+          "size": {
+            "UDim_X": {
+              "Offect": 501
+            },
+            "UDim_Y": {
+              "Offect": 62
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "f9b3e960-d177-4c4b-88c2-8784d71203be"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.3028008937836
+                },
+                "UDim_Y": {
+                  "Offect": 1.1000039577485,
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 16.5,
+                  "Scale": 0.85
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.85
+                }
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "DisabledImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "DisabledStretch": {
+            "bottom_left": 7,
+            "bottom_right": 17,
+            "top_left": 6,
+            "top_right": 5
+          },
+          "HoverImage": {
+            "asset": "asset/file/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 17,
+            "top_left": 17,
+            "top_right": 3
+          },
+          "id": {
+            "value": "4ba581e1-84e5-40d6-af75-cb35be3ac31f"
+          },
+          "name": "RankButton",
+          "NormalImage": {
+            "asset": "asset/file/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 17,
+            "top_left": 17,
+            "top_right": 3
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.13
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/file/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 16,
+            "bottom_right": 18,
+            "top_left": 15,
+            "top_right": 3
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.09
+            }
+          },
+          "Text": ""
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "VerticalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "id": {
+                            "value": "e74a70eb-9e79-4c73-ba37-124e6334478f"
+                          },
+                          "Image": {
+                            "asset": "asset/file/ui/bg_ranking_me.png"
+                          },
+                          "name": "Bg",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "AutoTextScale": true,
+                          "Font_size": 19,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "8631232c-10b9-4cce-b271-b6592e3eaefc"
+                          },
+                          "name": "Name",
+                          "pos": {
+                            "UDim_X": {
+                              "Scale": 0.05
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.4
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "AutoTextScale": true,
+                          "Font_size": 19,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "5f5ab831-ccca-4530-acbe-92355cc01d6c"
+                          },
+                          "name": "Time",
+                          "pos": {
+                            "UDim_X": {
+                              "Scale": 0.6
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.4
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoTextScale": true,
+                          "Font_size": 24,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "4006c4db-6b85-43ba-aea9-85bf6d13f5d1"
+                          },
+                          "name": "Index",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.15
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Text": "1",
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "1199dccd-d1ed-4135-9c17-ebb128b19d12"
+                          },
+                          "Image": {
+                            "asset": "asset/file/ui/img_1st.png"
+                          },
+                          "name": "LogoBg",
+                          "pos": {
+                            "UDim_X": {
+                              "Scale": 0.025
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        }
+                      ],
+                      "id": {
+                        "value": "401a2024-8637-4eeb-ace3-bce4bc6700f5"
+                      },
+                      "name": "Rank",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.09
+                        }
+                      },
+                      "Text": "",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255
+                      },
+                      "VertFormatting": "CentreAligned"
+                    }
+                  ],
+                  "id": {
+                    "value": "78fa33e1-08e5-42d7-8852-533423d3fa4c"
+                  },
+                  "name": "InfoLayout",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.06
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 976
+                    },
+                    "UDim_Y": {
+                      "Offect": 35
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font_size": 15,
+                  "id": {
+                    "value": "d7a07407-8caf-4737-be4e-03be789b008a"
+                  },
+                  "name": "BestTime",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "AutoTextScale": true,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "121d22e3-dcbb-4ac0-8cba-73f9ea0621ef"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": -0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.8
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        }
+                      },
+                      "VertFormatting": "CentreAligned"
+                    }
+                  ],
+                  "HoverImage": {
+                    "asset": "asset/file/ui/icon_red_nor（三宫格左右20px固定）.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 17,
+                    "bottom_right": 18,
+                    "top_left": 18,
+                    "top_right": 5
+                  },
+                  "id": {
+                    "value": "5a947169-e41f-4901-9465-c9df8930c688"
+                  },
+                  "name": "CloseButton",
+                  "NormalImage": {
+                    "asset": "asset/file/ui/icon_red_nor（三宫格左右20px固定）.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 17,
+                    "bottom_right": 18,
+                    "top_left": 18,
+                    "top_right": 5
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.2
+                    }
+                  },
+                  "PushedImage": {
+                    "asset": "asset/file/ui/icon_red_act.png"
+                  },
+                  "PushedStretch": {
+                    "bottom_left": 15,
+                    "bottom_right": 18,
+                    "top_left": 15,
+                    "top_right": 4
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": ""
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "4fcbcbf1-5f4e-43c0-a3a9-d4df60b81f77"
+                  },
+                  "name": "NameText",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.05
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "a36a7fd9-5dbb-4273-af83-52902cad1c46"
+                  },
+                  "name": "TimeText",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.6
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "cba1654e-42fe-4abe-b209-6ed71f3c5435"
+                  },
+                  "name": "RankText",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                }
+              ],
+              "id": {
+                "value": "eb748a30-636f-4078-bd55-e740105f9f28"
+              },
+              "Image": {
+                "asset": "asset/file/ui/bg_ranking_inside.png"
+              },
+              "name": "RankBgMgr",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.025
+                },
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Scale": 0.5
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 23,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "15c1f995-2403-48c4-9247-0518c45f4219"
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.2
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    }
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "1abd8cdb-47ca-4956-aa58-d31124a57e46"
+              },
+              "Image": {
+                "asset": "asset/file/ui/bg_ranking_big_title.png"
+              },
+              "name": "Logo",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "82ffc23c-f166-4beb-b4c4-25c07c5622a9"
+          },
+          "Image": {
+            "asset": "asset/file/ui/bg_ranking_big（三宫格左右70px固定）.png"
+          },
+          "name": "RankBg",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.73
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "c1a0e729-8d71-46aa-9d48-ee4994c99f67"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "81f623b9e3f45b233475ba1082d74da8",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

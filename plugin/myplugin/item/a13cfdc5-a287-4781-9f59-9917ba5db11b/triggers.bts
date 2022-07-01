@@ -1,0 +1,3 @@
+USE_ITEM {
+	AddEntityBuff(buffTime = 60, cfg = "myplugin/aperture", entity = $obj1)
+}

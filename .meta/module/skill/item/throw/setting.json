@@ -1,0 +1,47 @@
+{
+  "data": {
+    "castAction": "eat_end",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/xueguai/jiaoshi.effect",
+        "selector": "editor/Parkour/asset/file/xueguai/jiaoshi.effect"
+      },
+      "pos": {
+        "y": 1.5,
+        "z": 1
+      }
+    },
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_throw"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_UseItem"
+      },
+      "type": "UseItem"
+    },
+    "skillReleaseWay": {
+      "draggingEnabled": true,
+      "icon": {
+        "asset": "asset/hand.png"
+      },
+      "iconPos": {
+        "area_number": 5
+      },
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e022883644169930793fde1bca9b848f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/file/Banana.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_d6213359-c610-42e1-b26e-d8095e09fa7d"
+    },
+    "trap": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ca3cce9ce1a273a75a4085acb520f17a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}
