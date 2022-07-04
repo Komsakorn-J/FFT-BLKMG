@@ -1,0 +1,7 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetEntityRebirthPosition(entity = $obj2, pos = { x = 32.816715240479, y = 31.929408111572, z = -8.4213953018188 })
+	If ($obj2.mind < 3) {
+		$obj2.mind = 3
+		ShowTip(entity = $obj2, keepTime = 100, textKey = "f073d9fb-c42a-4a12-b265-f9bc8a2bae78", tipType = "1")
+	}
+}

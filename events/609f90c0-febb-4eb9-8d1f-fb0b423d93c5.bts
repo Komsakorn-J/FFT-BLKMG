@@ -1,0 +1,3 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetPartPosition(map = "map001", part = $part1, pos = { x = 38.431, y = 34.383, z = 27.11 })
+}

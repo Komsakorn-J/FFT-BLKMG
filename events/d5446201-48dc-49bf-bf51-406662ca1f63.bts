@@ -1,0 +1,6 @@
+PART_TOUCH_ENTITY_BEGIN {
+	If ($obj2.mind < 2) {
+		$obj2.mind = 2
+		ShowTip(entity = $obj2, keepTime = 40, textKey = "32d9adb8-8fb6-4ca8-9944-da42d0120bdb", tipType = "1")
+	}
+}

@@ -1,0 +1,9 @@
+ServerCustomTrigger_1 {
+	WhileBranch(condition = false) {
+		StartTimer2(interval = 100, time = 5, timer = "") {
+			If (GetObjectID(object = GetObject(objID = 102)) > 100) {
+				GetObject(objID = 102).mind = 102
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_DestoryPart",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "4701146c-d985-475a-9253-36b2d98c3ff5"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2d1d4692-2232-4902-8b28-adea76d1740b"
+              },
+              "pos": {
+                "x": 841,
+                "y": 345
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "4701146c-d985-475a-9253-36b2d98c3ff5"
+              },
+              "pos": {
+                "x": 1187,
+                "y": 309
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "a4931630-2d84-4c41-965e-e5a36b717962"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2d1d4692-2232-4902-8b28-adea76d1740b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "059874f6-4ede-44ca-84db-e81026dd8389"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "9694a241526dcdf90fededefe99bb05b"
+    },
+    "VERSION": "0.21"
+  }
+}

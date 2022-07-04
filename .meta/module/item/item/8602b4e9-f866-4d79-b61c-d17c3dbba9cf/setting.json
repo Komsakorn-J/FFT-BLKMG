@@ -1,0 +1,24 @@
+{
+  "data": {
+    "canUse": true,
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/file/Snowball/Sphere005.mesh"
+    },
+    "name": {
+      "value": "item_8602b4e9-f866-4d79-b61c-d17c3dbba9cf"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d085981e4f3563068ca5d6b04f7b82ac",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}
